@@ -14,7 +14,7 @@ const {
 
 const tokenKey = NODE_ENV === 'production' ? JWT_SECRET : jwtPublicKey;
 
-const allowedCors = ['http://localhost:3000'];
+const allowedCors = ['http://localhost:3000', 'http://ushakov.diploma.nomoredomainsicu.ru/', 'https://ushakov.diploma.nomoredomainsicu.ru'];
 
 const corsOptions = {
   origin: allowedCors,
